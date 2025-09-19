@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Botão</title>
+</head>
+<body>
+    
+    <button onclick="clicarBotao()">Aperte aqui</button>
+
+    <p id="p" style="display: none;">olá</p>
+
+
+
+    <script>
+        const p = document.getElementById("p")
+
+        
+        function clicarBotao(){
+            if(p.style.display === "none"){
+
+                p.style.display = "block"
+            }else{
+
+                p.style.display = "none"
+            }
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,29 @@
+//criar repositório//
+echo "# aleat-rio" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/Eric-Desenvolvedor/ProjetoPOOescola.git
+git push -u origin main
+
+
+//colocar em um repositório que já exite//
+git remote add origin https://github.com/Eric-Desenvolvedor/ProjetoPOOescola.git
+git branch -M main
+git push -u origin main
+
+
+git config --global user.email "eric.personblack@gmail.com"
+git config --global user.name "Eric"
+git pull --rebase origin Eric
+
+
+//durante a aula//
+
+git brach
+git checkout -b Eric
+git status
+git add .
+git commit -m "alguma coisa"
+git push

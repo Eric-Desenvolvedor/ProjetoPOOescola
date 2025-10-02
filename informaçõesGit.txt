@@ -1,5 +1,5 @@
 //criar repositório//
-echo "# aleat-rio" >> README.md
+echo "# ProjetoPOOescola" >> README.md
 git init
 git add README.md
 git commit -m "first commit"
@@ -16,7 +16,11 @@ git push -u origin main
 
 git config --global user.email "eric.personblack@gmail.com"
 git config --global user.name "Eric"
+
+//conseguir enviar algo de um outro computador (meu jeito)
 git pull --rebase origin Eric
+
+//conseguir enviar algo de um outro computador (jeito do Edi)
 
 
 //durante a aula//

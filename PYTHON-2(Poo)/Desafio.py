@@ -6,11 +6,11 @@ class User:
         if nome is None:
             nome = input("Digite seu nome de usuário: ")
         if email is None:
-            email = input("Digete seu e-mail: ")
+            email = input("Digite seu e-mail: ")
         if cpf is None:
-            cpf = input("Digete seu CPF: ")
+            cpf = input("Digite seu CPF: ")
         if senha is None:
-            senha = input("Digete sua senha: ")
+            senha = input("Digite sua senha: ")
             
         self.nome = nome
         self.email = email
